@@ -402,8 +402,6 @@ async function reservarCita(){
     datos.append('lugar', lugar);
     datos.append('usuarioId', id);
     datos.append('servicios', idServicios);
-    datos.append('finaliza', '00:00:00');
-    datos.append('confirmado', '0');
 
 
     // console.log([...datos]);

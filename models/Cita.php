@@ -24,7 +24,7 @@ class Cita extends ActiveRecord{
         $this->hora = $args['hora'] ?? '';
         $this->lugar = $args['lugar'] ?? '';
         $this->estilista = $args['estilista'] ?? '';
-        $this->finaliza = $args['finaliza'] ?? '';
+        $this->finaliza = $args['finaliza'] ?? '00:00:00';
         $this->usuarioId = $args['usuarioId'] ?? '';
         $this->confirmado = $args['confirmado'] ?? '0';
         
