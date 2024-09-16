@@ -3,7 +3,7 @@
 namespace Controllers;
 
 use Model\Establecimiento;
-use Model\servicio;
+use Model\Servicio;
 use MVC\Router;
 
 class ServicioController{
