@@ -389,7 +389,7 @@ function mostrarResumen(){
 
 async function reservarCita(){
     
-    const { nombre, fecha, hora,lugar ,estilista,servicios, id,finaliza,confirmado } = cita;
+    const { nombre, fecha, hora,lugar ,estilista,servicios, id } = cita;
 
     const idServicios = servicios.map( servicio => servicio.id)
     console.log(idServicios);
