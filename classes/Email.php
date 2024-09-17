@@ -36,7 +36,7 @@ class Email{
         $mail->CharSet = 'UTF-8';
 
         $contenido = "<html>";
-        $contenido .=" <p><strong>Hola " . $this->email . "</strong> Has creado tu cuenta en App Salon, solo debes confirmarla presionando el siguiente enlace</p>";
+        $contenido .=" <p><strong>Hola " . $this->email . "</strong> Has creado tu cuenta en Black & White Barberia, solo debes confirmarla presionando el siguiente enlace</p>";
         $contenido .= "<p>Presiona aqui: <a href='" . $_ENV['APP_URL'] . "/confirmar-cuenta?token=" . $this->token . " '>Confirmar Cuenta</a> </p>";
         $contenido .= "<p>Si tu no solicitaste esta cuenta, puedes ignorar el mensaje</p>";
         $contenido .="</html>";
@@ -100,7 +100,7 @@ class Email{
         $mail->CharSet = 'UTF-8';
 
         $contenido = "<html>";
-        $contenido .=" <p><strong>Hola: " . $this->nombre . "</strong> Has solicitado una cita en APP SALON <strong>lamentablemente el horario seleccionado no fue aprobado</strong> te recomendamos reagendar tu cita</p>";
+        $contenido .=" <p><strong>Hola: " . $this->nombre . "</strong> Has solicitado una cita en Black & White Barberia <strong>lamentablemente el horario seleccionado no fue aprobado</strong> te recomendamos reagendar tu cita</p>";
         $contenido .= "<p>Gracias por su compresion </p>";
         $contenido .="</html>";
 
@@ -131,7 +131,7 @@ class Email{
         $mail->CharSet = 'UTF-8';
 
         $contenido = "<html>";
-        $contenido .=" <p><strong>Hola: " . $this->nombre . "</strong> has solicitado una cita en APP SALON el horario seleccionado fue aprobado</p>";
+        $contenido .=" <p><strong>Hola: " . $this->nombre . "</strong> has solicitado una cita en Black & White Barberia el horario seleccionado fue aprobado</p>";
         $contenido .="<p>Te solicitamos estar 5 minutos antes de la hora agendada para que tu servicio sea atendido lo mas rapido posible</p>";
         $contenido .= "<p>Gracias por su compresion </p>";
         $contenido .="</html>";
